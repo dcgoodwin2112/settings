@@ -1,0 +1,17 @@
+
+# Font
+font-family = "Dank Mono"
+font-size = 14
+font-feature = +calt
+font-feature = +liga
+
+# Window chrome
+window-padding-x = 14
+window-padding-y = 14
+
+# Theme
+theme = "Night Owl"
+window-theme = auto
+
+
+

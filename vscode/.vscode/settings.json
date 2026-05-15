@@ -1,0 +1,260 @@
+{
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": false,
+  "editor.rulers": [
+    80
+  ],
+  "editor.formatOnSave": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit",
+    "source.fixAll.eslint": "explicit"
+  },
+  "files.eol": "\n",
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.associations": {
+    "*.module": "php",
+    "*.install": "php",
+    "*.theme": "php",
+    "*.profile": "php",
+    "*.inc": "php",
+    "*.engine": "php",
+    "*.test": "php",
+    "*.twig": "twig",
+    "*.yml": "yaml",
+    "*.yaml": "yaml",
+    ".env": "dotenv",
+    ".env.*": "dotenv"
+  },
+  "search.exclude": {
+    "**/.git": true,
+    "**/vendor": true,
+    "**/node_modules": true,
+    "**/dist": true,
+    "**/build": true,
+    "**/coverage": true,
+    "**/docroot/core": true,
+    "**/docroot/sites/default/files": true
+  },
+  "files.watcherExclude": {
+    "**/.git/**": true,
+    "**/vendor/**": true,
+    "**/node_modules/**": true,
+    "**/dist/**": true,
+    "**/build/**": true,
+    "**/coverage/**": true,
+    "**/docroot/core/**": true,
+    "**/docroot/sites/default/files/**": true
+  },
+  "php.suggest.basic": false,
+  "php.validate.enable": false,
+  "intelephense.files.maxSize": 5000000,
+  "intelephense.environment.documentRoot": "docroot/index.php",
+  "intelephense.environment.includePaths": [
+    "docroot/core",
+    "docroot/modules/contrib",
+    "docroot/themes/contrib",
+    "docroot/profiles/contrib",
+    "docroot/modules/custom",
+    "docroot/themes/custom",
+    "docroot/profiles/custom"
+  ],
+  "intelephense.files.exclude": [
+    "**/.git/**",
+    "**/node_modules/**",
+    "**/bower_components/**",
+    "**/docroot/sites/default/files/**"
+  ],
+  "phpcs.enable": true,
+  "phpcs.standard": "./phpcs.xml.dist",
+  "phpcs.executablePath": "./vendor/bin/phpcs",
+  "phpcs.phpcbfEnable": true,
+  "phpcs.phpcbfExecutablePath": "./vendor/bin/phpcbf",
+  "phpcs.lintOnOpen": true,
+  "phpcs.lintOnSave": true,
+  "phpcs.lintOnType": false,
+  "phpcs.phpcbfOnSave": false,
+  "eslint.enable": true,
+  "eslint.workingDirectories": [
+    {
+      "mode": "auto"
+    }
+  ],
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "javascript.preferences.quoteStyle": "single",
+  "typescript.preferences.quoteStyle": "single",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "typescript.preferences.includePackageJsonAutoImports": "auto",
+  "javascript.preferences.includePackageJsonAutoImports": "auto",
+  "prettier.requireConfig": true,
+  "prettier.useEditorConfig": true,
+  "yaml.validate": true,
+  "yaml.format.enable": true,
+  "yaml.hover": true,
+  "yaml.completion": true,
+  "emmet.includeLanguages": {
+    "twig": "html"
+  },
+  "emmet.triggerExpansionOnTab": true,
+  "cSpell.enabled": true,
+  "cSpell.language": "en",
+  "cSpell.allowCompoundWords": true,
+  "cSpell.maxNumberOfProblems": 100,
+  "cSpell.files": [
+    "**",
+    "!**/.git/**",
+    "!**/vendor/**",
+    "!**/node_modules/**",
+    "!**/dist/**",
+    "!**/build/**",
+    "!**/coverage/**",
+    "!**/docroot/core/**",
+    "!**/docroot/sites/default/files/**",
+    "!**/docroot/modules/contrib/**",
+    "!**/docroot/themes/contrib/**"
+  ],
+  "cSpell.enabledFileTypes": {
+    "php": true,
+    "twig": true,
+    "yaml": true,
+    "json": true,
+    "jsonc": true,
+    "markdown": true,
+    "javascript": true,
+    "javascriptreact": true,
+    "typescript": true,
+    "typescriptreact": true,
+    "css": true,
+    "scss": true,
+    "plaintext": true
+  },
+  "cSpell.ignorePaths": [
+    "vendor/**",
+    "node_modules/**",
+    "dist/**",
+    "build/**",
+    "coverage/**",
+    "docroot/core/**",
+    "docroot/sites/default/files/**",
+    "docroot/modules/contrib/**",
+    "docroot/themes/contrib/**",
+    "composer.lock",
+    "package-lock.json",
+    "pnpm-lock.yaml",
+    "yarn.lock"
+  ],
+  "cSpell.words": [
+    "autowire",
+    "autowired",
+    "behat",
+    "cacheability",
+    "cacheable",
+    "classnames",
+    "civicactions",
+    "ckeditor",
+    "clsx",
+    "composerize",
+    "configsplit",
+    "datetime",
+    "ddev",
+    "decoupled",
+    "docroot",
+    "drupal",
+    "drush",
+    "entitytype",
+    "eslint",
+    "fieldable",
+    "intelephense",
+    "maxlength",
+    "metatag",
+    "multivalue",
+    "phpcbf",
+    "phpcs",
+    "phpstan",
+    "preprocess",
+    "renderable",
+    "storybook",
+    "subtheme",
+    "symfony",
+    "tinymce",
+    "transpile",
+    "vite",
+    "vitest",
+    "webform"
+  ],
+  "[php]": {
+    "editor.defaultFormatter": null,
+    "editor.formatOnSave": false,
+    "editor.tabSize": 2
+  },
+  "[twig]": {
+    "editor.defaultFormatter": null,
+    "editor.formatOnSave": false,
+    "editor.tabSize": 2,
+    "editor.rulers": [
+      80
+    ]
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2
+  },
+  "[markdown]": {
+    "editor.wordWrap": "on",
+    "editor.formatOnSave": false,
+    "files.trimTrailingWhitespace": false
+  },
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "diffEditor.ignoreTrimWhitespace": false
+}

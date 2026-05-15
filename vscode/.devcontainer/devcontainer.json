@@ -1,0 +1,27 @@
+{
+  "name": "DDEV Drupal + Vite",
+  "initializeCommand": "ddev start",
+  "dockerComposeFile": [
+    "../.ddev/.ddev-docker-compose-full.yaml"
+  ],
+  "service": "web",
+  "workspaceFolder": "/var/www/html",
+  "overrideCommand": false,
+  "shutdownAction": "none",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "bmewburn.vscode-intelephense-client",
+        "shevaua.phpcs",
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "redhat.vscode-yaml",
+        "EditorConfig.EditorConfig",
+        "mblode.twig-language-2",
+        "mikestead.dotenv",
+        "formulahendry.auto-rename-tag",
+        "streetsidesoftware.code-spell-checker"
+      ]
+    }
+  }
+}
